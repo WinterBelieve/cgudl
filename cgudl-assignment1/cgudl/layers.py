@@ -181,7 +181,7 @@ def softmax_loss(x, y):
     ###########################################################################
     # TODO: Implement the loss and gradient for softmax classification. This  #
     # will be similar to the softmax loss vectorized implementation in        #
-    # cs231/classifiers/softmax.py.                                          #
+    # cgudl/classifiers/softmax.py.                                          #
     ###########################################################################
     # *****START OF YOUR CODE (DO NOT DELETE/MODIFY THIS LINE)*****
 

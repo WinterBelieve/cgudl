@@ -27,7 +27,7 @@ def main(files):
         merger = PdfMerger()
         for pdf in pdfs:
             merger.append(pdf)
-        merger.write("assignment.pdf")
+        merger.write("assignment1.pdf")
         merger.close()
 
         for pdf in pdfs:
