@@ -51,4 +51,4 @@ zip -q "${ZIP_FILENAME}" -r ${NOTEBOOKS[@]} $(find . -name "*.py") -x "makepdf.p
 echo -e "### Creating PDFs ###"
 python makepdf.py --notebooks "${NOTEBOOKS[@]}"
 
-echo -e "### Done! Please submit a1.zip and the pdfs to Gradescope. ###"
+echo -e "### Done! Please submit a1.zip and the assignment1.pdf to Teams. ###"
