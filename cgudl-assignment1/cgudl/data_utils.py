@@ -257,7 +257,7 @@ def load_imagenet_val(num=None):
     if not os.path.isfile(imagenet_fn):
         print("file %s not found" % imagenet_fn)
         print("Run the following:")
-        print("cd cgudl/datasets")
+        print("cd cs231n/datasets")
         print("bash get_imagenet_val.sh")
         assert False, "Need to download imagenet_val_25.npz"
 

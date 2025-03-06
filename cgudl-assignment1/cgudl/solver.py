@@ -1,7 +1,5 @@
 from __future__ import print_function, division
-from future import standard_library
 
-standard_library.install_aliases()
 from builtins import range
 from builtins import object
 import os
@@ -9,7 +7,7 @@ import pickle as pickle
 
 import numpy as np
 
-from cgudl import optim
+from cs231n import optim
 
 
 class Solver(object):
@@ -18,7 +16,7 @@ class Solver(object):
     models. The Solver performs stochastic gradient descent using different
     update rules defined in optim.py.
 
-    The solver accepts both training and validataion data and labels so it can
+    The solver accepts both training and validation data and labels so it can
     periodically check classification accuracy on both training and validation
     data to watch out for overfitting.
 
@@ -46,10 +44,10 @@ class Solver(object):
     solver = Solver(model, data,
                     update_rule='sgd',
                     optim_config={
-                      'learning_rate': 1e-4,
+                      'learning_rate': 1e-3,
                     },
                     lr_decay=0.95,
-                    num_epochs=5, batch_size=200,
+                    num_epochs=10, batch_size=100,
                     print_every=100)
     solver.train()
 
