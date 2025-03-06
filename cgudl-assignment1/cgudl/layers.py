@@ -145,7 +145,7 @@ def svm_loss(x, y):
     ###########################################################################
     # TODO: Implement loss and gradient for multiclass SVM classification.    #
     # This will be similar to the svm loss vectorized implementation in       #
-    # cs231n/classifiers/linear_svm.py.                                       #
+    # cgudl/classifiers/linear_svm.py.                                       #
     ###########################################################################
     # *****START OF YOUR CODE (DO NOT DELETE/MODIFY THIS LINE)*****
 
@@ -181,7 +181,7 @@ def softmax_loss(x, y):
     ###########################################################################
     # TODO: Implement the loss and gradient for softmax classification. This  #
     # will be similar to the softmax loss vectorized implementation in        #
-    # cs231n/classifiers/softmax.py.                                          #
+    # cs231/classifiers/softmax.py.                                          #
     ###########################################################################
     # *****START OF YOUR CODE (DO NOT DELETE/MODIFY THIS LINE)*****
 
