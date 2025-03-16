@@ -5,7 +5,6 @@ CODE=(
 	"cgudl/rnn_layers.py"
 	"cgudl/transformer_layers.py"
 	"cgudl/classifiers/rnn.py"
-	"cgudl/net_visualization_pytorch.py"
 	"cgudl/gan_pytorch.py"
 	"cgudl/simclr/contrastive_loss.py"
 	"cgudl/simclr/data_utils.py"
@@ -14,10 +13,10 @@ CODE=(
 NOTEBOOKS=(
 	"RNN_Captioning.ipynb"
 	"Transformer_Captioning.ipynb"
-	"Network_Visualization.ipynb"
 	"Generative_Adversarial_Networks.ipynb"
 	"Self_Supervised_Learning.ipynb"
 	"LSTM_Captioning.ipynb"
+	"PyTorch.ipynb"
 )
 
 FILES=( "${CODE[@]}" "${NOTEBOOKS[@]}" )
