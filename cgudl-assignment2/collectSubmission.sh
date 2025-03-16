@@ -19,7 +19,6 @@ NOTEBOOKS=(
 	"BatchNormalization.ipynb"
 	"Dropout.ipynb"
 	"ConvolutionalNetworks.ipynb"
-	"PyTorch.ipynb"
 )
 
 FILES=( "${CODE[@]}" "${NOTEBOOKS[@]}" )
