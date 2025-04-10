@@ -3,19 +3,14 @@ set -euo pipefail
 
 CODE=(
 	"cgudl/rnn_layers.py"
-	"cgudl/transformer_layers.py"
 	"cgudl/classifiers/rnn.py"
-	"cgudl/gan_pytorch.py"
 	"cgudl/simclr/contrastive_loss.py"
 	"cgudl/simclr/data_utils.py"
 	"cgudl/simclr/utils.py"
 )
 NOTEBOOKS=(
 	"RNN_Captioning.ipynb"
-	"Transformer_Captioning.ipynb"
-	"Generative_Adversarial_Networks.ipynb"
-	"Self_Supervised_Learning.ipynb"
-	"LSTM_Captioning.ipynb"
+	"RNN_Captioning_PyTorch.ipynb"
 	"PyTorch.ipynb"
 )
 
